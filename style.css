@@ -1,0 +1,44 @@
+html{
+    background-color: coral;
+
+}
+h1,h2,h3,h4,h5,p{
+    margin-bottom: 8px;
+    color: white;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+div.container{
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    margin: 10px;
+    float: left;
+
+}
+div.box{
+    height: 250px;
+    width: 250px;
+    background-color: green;
+    margin: 10px;
+    float: top;
+}
+
+@media screen and (min-device-width:800px){
+   .container{
+       width: 100%;
+       float: top;
+   }
+}
+@media screen and (max-device-width:800px){
+    .container{
+        width: 250px;
+        margin: 8px;
+        float: left;
+    }
+}
